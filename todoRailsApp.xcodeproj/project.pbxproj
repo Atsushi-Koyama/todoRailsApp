@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52114C2B22819588004AD285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52114C2A22819588004AD285 /* AppDelegate.swift */; };
+		52114C2D22819588004AD285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52114C2C22819588004AD285 /* ViewController.swift */; };
+		52114C3022819588004AD285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52114C2E22819588004AD285 /* Main.storyboard */; };
+		52114C3222819589004AD285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52114C3122819589004AD285 /* Assets.xcassets */; };
+		52114C3522819589004AD285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52114C3322819589004AD285 /* LaunchScreen.storyboard */; };
+		52114C402281958A004AD285 /* todoRailsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52114C3F2281958A004AD285 /* todoRailsAppTests.swift */; };
+		52114C4B2281958A004AD285 /* todoRailsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52114C4A2281958A004AD285 /* todoRailsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52114C3C2281958A004AD285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52114C1F22819588004AD285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52114C2622819588004AD285;
+			remoteInfo = todoRailsApp;
+		};
+		52114C472281958A004AD285 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52114C1F22819588004AD285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52114C2622819588004AD285;
+			remoteInfo = todoRailsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52114C2722819588004AD285 /* todoRailsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoRailsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52114C2A22819588004AD285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52114C2C22819588004AD285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52114C2F22819588004AD285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52114C3122819589004AD285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52114C3422819589004AD285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52114C362281958A004AD285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52114C3B2281958A004AD285 /* todoRailsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoRailsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52114C3F2281958A004AD285 /* todoRailsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoRailsAppTests.swift; sourceTree = "<group>"; };
+		52114C412281958A004AD285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52114C462281958A004AD285 /* todoRailsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoRailsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52114C4A2281958A004AD285 /* todoRailsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoRailsAppUITests.swift; sourceTree = "<group>"; };
+		52114C4C2281958A004AD285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52114C2422819588004AD285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52114C382281958A004AD285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52114C432281958A004AD285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52114C1E22819588004AD285 = {
+			isa = PBXGroup;
+			children = (
+				52114C2922819588004AD285 /* todoRailsApp */,
+				52114C3E2281958A004AD285 /* todoRailsAppTests */,
+				52114C492281958A004AD285 /* todoRailsAppUITests */,
+				52114C2822819588004AD285 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52114C2822819588004AD285 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52114C2722819588004AD285 /* todoRailsApp.app */,
+				52114C3B2281958A004AD285 /* todoRailsAppTests.xctest */,
+				52114C462281958A004AD285 /* todoRailsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52114C2922819588004AD285 /* todoRailsApp */ = {
+			isa = PBXGroup;
+			children = (
+				52114C2A22819588004AD285 /* AppDelegate.swift */,
+				52114C2C22819588004AD285 /* ViewController.swift */,
+				52114C2E22819588004AD285 /* Main.storyboard */,
+				52114C3122819589004AD285 /* Assets.xcassets */,
+				52114C3322819589004AD285 /* LaunchScreen.storyboard */,
+				52114C362281958A004AD285 /* Info.plist */,
+			);
+			path = todoRailsApp;
+			sourceTree = "<group>";
+		};
+		52114C3E2281958A004AD285 /* todoRailsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				52114C3F2281958A004AD285 /* todoRailsAppTests.swift */,
+				52114C412281958A004AD285 /* Info.plist */,
+			);
+			path = todoRailsAppTests;
+			sourceTree = "<group>";
+		};
+		52114C492281958A004AD285 /* todoRailsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52114C4A2281958A004AD285 /* todoRailsAppUITests.swift */,
+				52114C4C2281958A004AD285 /* Info.plist */,
+			);
+			path = todoRailsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52114C2622819588004AD285 /* todoRailsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52114C4F2281958A004AD285 /* Build configuration list for PBXNativeTarget "todoRailsApp" */;
+			buildPhases = (
+				52114C2322819588004AD285 /* Sources */,
+				52114C2422819588004AD285 /* Frameworks */,
+				52114C2522819588004AD285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = todoRailsApp;
+			productName = todoRailsApp;
+			productReference = 52114C2722819588004AD285 /* todoRailsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52114C3A2281958A004AD285 /* todoRailsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52114C522281958A004AD285 /* Build configuration list for PBXNativeTarget "todoRailsAppTests" */;
+			buildPhases = (
+				52114C372281958A004AD285 /* Sources */,
+				52114C382281958A004AD285 /* Frameworks */,
+				52114C392281958A004AD285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52114C3D2281958A004AD285 /* PBXTargetDependency */,
+			);
+			name = todoRailsAppTests;
+			productName = todoRailsAppTests;
+			productReference = 52114C3B2281958A004AD285 /* todoRailsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52114C452281958A004AD285 /* todoRailsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52114C552281958A004AD285 /* Build configuration list for PBXNativeTarget "todoRailsAppUITests" */;
+			buildPhases = (
+				52114C422281958A004AD285 /* Sources */,
+				52114C432281958A004AD285 /* Frameworks */,
+				52114C442281958A004AD285 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52114C482281958A004AD285 /* PBXTargetDependency */,
+			);
+			name = todoRailsAppUITests;
+			productName = todoRailsAppUITests;
+			productReference = 52114C462281958A004AD285 /* todoRailsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52114C1F22819588004AD285 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = COML;
+				TargetAttributes = {
+					52114C2622819588004AD285 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					52114C3A2281958A004AD285 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 52114C2622819588004AD285;
+					};
+					52114C452281958A004AD285 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 52114C2622819588004AD285;
+					};
+				};
+			};
+			buildConfigurationList = 52114C2222819588004AD285 /* Build configuration list for PBXProject "todoRailsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52114C1E22819588004AD285;
+			productRefGroup = 52114C2822819588004AD285 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52114C2622819588004AD285 /* todoRailsApp */,
+				52114C3A2281958A004AD285 /* todoRailsAppTests */,
+				52114C452281958A004AD285 /* todoRailsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52114C2522819588004AD285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52114C3522819589004AD285 /* LaunchScreen.storyboard in Resources */,
+				52114C3222819589004AD285 /* Assets.xcassets in Resources */,
+				52114C3022819588004AD285 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52114C392281958A004AD285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52114C442281958A004AD285 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52114C2322819588004AD285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52114C2D22819588004AD285 /* ViewController.swift in Sources */,
+				52114C2B22819588004AD285 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52114C372281958A004AD285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52114C402281958A004AD285 /* todoRailsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52114C422281958A004AD285 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52114C4B2281958A004AD285 /* todoRailsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52114C3D2281958A004AD285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52114C2622819588004AD285 /* todoRailsApp */;
+			targetProxy = 52114C3C2281958A004AD285 /* PBXContainerItemProxy */;
+		};
+		52114C482281958A004AD285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52114C2622819588004AD285 /* todoRailsApp */;
+			targetProxy = 52114C472281958A004AD285 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52114C2E22819588004AD285 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52114C2F22819588004AD285 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52114C3322819589004AD285 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52114C3422819589004AD285 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52114C4D2281958A004AD285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52114C4E2281958A004AD285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52114C502281958A004AD285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V3PA4HA9X;
+				INFOPLIST_FILE = todoRailsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = COML.todoRailsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52114C512281958A004AD285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V3PA4HA9X;
+				INFOPLIST_FILE = todoRailsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = COML.todoRailsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52114C532281958A004AD285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V3PA4HA9X;
+				INFOPLIST_FILE = todoRailsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = COML.todoRailsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/todoRailsApp.app/todoRailsApp";
+			};
+			name = Debug;
+		};
+		52114C542281958A004AD285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V3PA4HA9X;
+				INFOPLIST_FILE = todoRailsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = COML.todoRailsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/todoRailsApp.app/todoRailsApp";
+			};
+			name = Release;
+		};
+		52114C562281958A004AD285 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V3PA4HA9X;
+				INFOPLIST_FILE = todoRailsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = COML.todoRailsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = todoRailsApp;
+			};
+			name = Debug;
+		};
+		52114C572281958A004AD285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V3PA4HA9X;
+				INFOPLIST_FILE = todoRailsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = COML.todoRailsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = todoRailsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52114C2222819588004AD285 /* Build configuration list for PBXProject "todoRailsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52114C4D2281958A004AD285 /* Debug */,
+				52114C4E2281958A004AD285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52114C4F2281958A004AD285 /* Build configuration list for PBXNativeTarget "todoRailsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52114C502281958A004AD285 /* Debug */,
+				52114C512281958A004AD285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52114C522281958A004AD285 /* Build configuration list for PBXNativeTarget "todoRailsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52114C532281958A004AD285 /* Debug */,
+				52114C542281958A004AD285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52114C552281958A004AD285 /* Build configuration list for PBXNativeTarget "todoRailsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52114C562281958A004AD285 /* Debug */,
+				52114C572281958A004AD285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52114C1F22819588004AD285 /* Project object */;
+}
