@@ -14,11 +14,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     @IBOutlet weak var tableView: UITableView!
     
+    var todoDataArray = [TodoData]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.delegate = self as? UITableViewDelegate
-        tableView.dataSource = self as? UITableViewDataSource
+        tableView.delegate = self
+        tableView.dataSource = self
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -30,11 +32,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        numberOfRowsInSection
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 //        テーブルセルの取得処理
+//        return cell
+        let cell =  tableView.dequeueReusableCell(withIdentifier: 'todoCell', for: indexPath) as! toDoTableViewCell
+        let todoData = todoDataArray[indexPath.row]
+        
+        
     }
+    
+    
     
     
 
