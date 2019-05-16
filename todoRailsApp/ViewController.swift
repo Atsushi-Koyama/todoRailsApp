@@ -38,7 +38,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 //        テーブルセルの取得処理
 //        return cell
-        let cell =  tableView.dequeueReusableCell(withIdentifier: 'todoCell', for: indexPath) as! toDoTableViewCell
+        let cell =  tableView.dequeueReusableCell(withIdentifier: 'todoCell', for: indexPath) as! todoTableViewCell
         let todoData = todoDataArray[indexPath.row]
         
         
