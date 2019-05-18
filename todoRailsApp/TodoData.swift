@@ -7,3 +7,19 @@
 //
 
 import Foundation
+import UIKit
+
+
+class TodoData {
+    
+    var todoTitle: String?
+    
+    var todoCaption: String?
+    
+    var todoPostTime: String?
+    
+    var todoUpdateTime: String?
+    
+    var done: Bool?
+    
+}

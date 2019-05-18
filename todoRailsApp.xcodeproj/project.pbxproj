@@ -14,6 +14,7 @@
 		52114C3522819589004AD285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52114C3322819589004AD285 /* LaunchScreen.storyboard */; };
 		52114C402281958A004AD285 /* todoRailsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52114C3F2281958A004AD285 /* todoRailsAppTests.swift */; };
 		52114C4B2281958A004AD285 /* todoRailsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52114C4A2281958A004AD285 /* todoRailsAppUITests.swift */; };
+		52999914228BF0AE00D34D1A /* TodoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52999913228BF0AE00D34D1A /* TodoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		52114C462281958A004AD285 /* todoRailsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todoRailsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52114C4A2281958A004AD285 /* todoRailsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoRailsAppUITests.swift; sourceTree = "<group>"; };
 		52114C4C2281958A004AD285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52999913228BF0AE00D34D1A /* TodoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				52114C3122819589004AD285 /* Assets.xcassets */,
 				52114C3322819589004AD285 /* LaunchScreen.storyboard */,
 				52114C362281958A004AD285 /* Info.plist */,
+				52999913228BF0AE00D34D1A /* TodoData.swift */,
 			);
 			path = todoRailsApp;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				52114C2D22819588004AD285 /* ViewController.swift in Sources */,
 				52114C2B22819588004AD285 /* AppDelegate.swift in Sources */,
+				52999914228BF0AE00D34D1A /* TodoData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
